@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+}
+.face{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: #ffe0bd;
+  display: flex;
+  transform: translate(0px, 0px);
+}
+
+.eye {
+  border: 0.5px solid gray;
+  border-radius: 50%;
+  background-color: white;
+  height: 100px;
+  width: 75px;
+  margin: 50px auto;
+  position: relative;
+  transition: all 0.2s linear;
+  overflow: hidden;
+  -moz-box-shadow: inset 0 0 15px #f69f9f;
+  -webkit-box-shadow: inset 0 0 15px #f69f9f;
+  box-shadow: inset 0 0 15px #f69f9f;
+}
+
+.eye-ball {
+  /* background: url("https://workplaceinsight.net/wp-content/uploads/2016/09/green-transparency-sustainable-regulations.png"); */
+  background: transparent;
+  background-repeat: no-repeat;
+  background-size: 45px 70px;
+  margin: -6px -6px;
+  border-radius: 50%;
+  border: 1px solid darkgreen;
+  height: 70px;
+  width: 45px;
+  position: absolute;
+  transition: all 0.2s linear;
+  transform: translate(15px,20px);
+  -moz-box-shadow:  0 0 15px #90ee90;
+  -webkit-box-shadow:  0 0 15px #90ee90;
+  box-shadow:  0 0 15px #90ee90;
+  box-shadow:  inset 0 0 15px green;
+}
+
+.eye-ball-center{
+    background: rgb(1, 39, 1);
+    border-radius: 50%;
+    border: 1px solid darkgreen;
+    height: 35px;
+    width: 22.5px;
+    margin-top:10px;
+    transition: all 0.2s linear;
+    transform: translate(15px,20px);
+    -moz-box-shadow:  0 0 15px #90ee90;
+    -webkit-box-shadow:  0 0 15px #90ee90;
+    box-shadow:  0 0 15px #90ee90;
+    box-shadow:  0 0 15px green;
+}
+
+.footer{
+  position:fixed;
+  bottom:0;
+  margin: 0 auto;
+}
