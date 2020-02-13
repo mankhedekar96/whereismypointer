@@ -1,0 +1,23 @@
+{
+  "name": "whereismypointer",
+  "version": "1.0.0",
+  "description": "Project made for fun. Ducky find the pointer v1.0.0. It follows your pointer as you move it on the screen.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mankhedekar96/whereismypointer.git"
+  },
+  "author": "Manish Khedekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mankhedekar96/whereismypointer/issues"
+  },
+  "homepage": "https://mankhedekar96.github.io/whereismypointer",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
